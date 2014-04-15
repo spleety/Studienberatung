@@ -6,6 +6,10 @@ public class Studienberatung {
 		
 		Scanner scanner = new Scanner(System.in);
 		
+		//hast-du-abitur
+		System.out.println("Hast du Abitur?");
+		String answer = scanner.next();
+		
 	}
 	
 	
