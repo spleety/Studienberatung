@@ -10,12 +10,13 @@ public class Studienberatung {
 		System.out.println("Hast du Abitur?");
 		String answer = scanner.next();
 		
-
+		//hast-du-fachabitur
 		if (answer.equalsIgnoreCase("n")){
 			System.out.println("Hast du Fachabitur?");
 			answer = scanner.next();	
+
 		}
-		
+		//bist-bu-wiisbegierig
 		else if (answer.equalsIgnoreCase("j")) {
 			System.out.println("Bist du wissbegierig?");
 			answer = scanner.next();
