@@ -13,7 +13,13 @@ public class Studienberatung {
 		//hast-du-fachabitur
 		if (answer.equalsIgnoreCase("n")){
 			System.out.println("Hast du Fachabitur?");
-			answer = scanner.next();	
+			answer = scanner.next();
+			//hast-du-fachabitur
+			
+			if (answer.equalsIgnoreCase("n")){
+				System.out.println("Nicht studieren");
+				break;
+			
 
 		}
 		//bist-bu-wiisbegierig
