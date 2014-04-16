@@ -24,6 +24,10 @@ public class Studienberatung {
 			else if (answer.equalsIgnoreCase("j")){
 				System.out.println("Hast du eine Berufsausbildung?");
 				answer = scanner.next();
+				//besser-noch-studierem
+				if (answer.equalsIgnoreCase("n")){
+					System.out.println("Besser noch studieren");
+					break;
 			}
 
 		}
@@ -35,6 +39,7 @@ public class Studienberatung {
 			//nicht-studieren
 			if (answer.equalsIgnoreCase("n")){
 				System.out.println("Nicht studieren");
+				break;
 			}
 			//auf-jeden-fall-studieren
 			else if (answer.equalsIgnoreCase("j")){
