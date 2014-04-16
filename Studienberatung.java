@@ -24,6 +24,7 @@ public class Studienberatung {
 			else if (answer.equalsIgnoreCase("j")){
 				System.out.println("Hast du eine Berufsausbildung?");
 				answer = scanner.next();
+			}
 
 		}
 		//bist-bu-wiisbegierig
@@ -34,7 +35,12 @@ public class Studienberatung {
 			//nicht-studieren
 			if (answer.equalsIgnoreCase("n")){
 				System.out.println("Nicht studieren");
+			}
+			//auf-jeden-fall-studieren
+			else if (answer.equalsIgnoreCase("j")){
+				System.out.println("Auf jeden Fall studieren");
 				break;
+			}
 		}
 		
 	}
