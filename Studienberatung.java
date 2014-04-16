@@ -18,7 +18,6 @@ public class Studienberatung {
 			//nicht-studieren
 			if (answer.equalsIgnoreCase("n")){
 				System.out.println("Nicht studieren");
-				break;
 			}
 			//hast-du-berufsausbildung
 			else if (answer.equalsIgnoreCase("j")){
@@ -32,7 +31,6 @@ public class Studienberatung {
 				//spaeter-studieren
 				else if (answer.equalsIgnoreCase("j")){
 					System.out.println("Du kannst ja spaeter noch studierem");
-					break;
 				}
 			}
 
@@ -45,12 +43,10 @@ public class Studienberatung {
 			//nicht-studieren
 			if (answer.equalsIgnoreCase("n")){
 				System.out.println("Nicht studieren");
-				break;
 			}
 			//auf-jeden-fall-studieren
 			else if (answer.equalsIgnoreCase("j")){
 				System.out.println("Auf jeden Fall studieren");
-				break;
 			}
 		}
 		
